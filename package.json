@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "A Javascript library for building Browser User Interfaces",
+  "description": "A Javascript library for building Browser User Interfaces. Pearl JS is a component base javascript rendering library for creating User Interfaces in the browser.\n",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
-    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
     "@babel/plugin-transform-runtime": "^7.13.10",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-typescript": "^7.13.0",
@@ -37,5 +37,7 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "babel-plugin-jsx-to-pearl": "^1.0.0"
-  }
+  },
+  "keywords": [],
+  "name": "pearl-js"
 }
